@@ -43,7 +43,7 @@ export default class GridSection extends React.Component {
             		</div>
             	</div>
             	)}
-                <div className=""
+                <div className="has-border"
             	{_.get(section, 'actions', null) && (
             	<div className={classNames('container', 'container--medium', {'mt-4': grid_gap_y !== 'large', 'mt-3': grid_gap_y === 'large'})}>
             		<div className={classNames('section__actions', 'btn-group', {'justify-center': align_x === 'center', 'justify-end': align_x === 'right'})}>
