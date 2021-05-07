@@ -43,7 +43,8 @@ export default class GridSection extends React.Component {
             		</div>
             	</div>
             	)}
-                <div className="has-border">
+                <div className="has-border" style={{height: ""}}>
+
                 </div>
             	{_.get(section, 'actions', null) && (
             	<div className={classNames('container', 'container--medium', {'mt-4': grid_gap_y !== 'large', 'mt-3': grid_gap_y === 'large'})}>
