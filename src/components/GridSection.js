@@ -43,7 +43,7 @@ export default class GridSection extends React.Component {
             		</div>
             	</div>
             	)}
-                <div className="has-border" style={{height: ""}}>
+                <div className="has-border" style={{height: "5rem",width: "100%", backgroundColor:"black",}}>
 
                 </div>
             	{_.get(section, 'actions', null) && (
